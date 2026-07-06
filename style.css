@@ -698,3 +698,200 @@ box-shadow:0 10px 30px rgba(255,123,0,.35);
 transform:translateY(-6px);
 
 }
+/* ================================
+   MOBILE RESPONSIVE
+================================ */
+
+@media (max-width: 992px){
+
+.navbar{
+padding:15px 20px;
+}
+
+.nav-links{
+display:none;
+}
+
+.nav-btn{
+display:none;
+}
+
+.hero{
+padding:140px 8% 80px;
+flex-direction:column;
+text-align:center;
+}
+
+.hero-content{
+order:2;
+}
+
+.hero-image{
+order:1;
+margin-bottom:40px;
+}
+
+.hero-image img{
+width:100%;
+max-width:450px;
+margin:auto;
+}
+
+.hero h1{
+font-size:52px;
+line-height:1.15;
+}
+
+.hero-text{
+font-size:18px;
+line-height:30px;
+}
+
+.hero-buttons{
+flex-direction:column;
+gap:18px;
+}
+
+.hero-buttons a{
+width:100%;
+max-width:280px;
+margin:auto;
+text-align:center;
+}
+
+.special-grid{
+grid-template-columns:1fr;
+}
+
+.about{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.about-image img{
+height:380px;
+}
+
+.gallery-grid{
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+}
+
+.review-container{
+grid-template-columns:1fr;
+}
+
+.contact-buttons{
+flex-direction:column;
+}
+
+footer{
+text-align:center;
+}
+
+}
+
+
+@media (max-width:768px){
+
+section{
+padding:80px 25px;
+}
+
+.hero{
+min-height:100vh;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero-tag{
+font-size:13px;
+letter-spacing:3px;
+}
+
+.hero-text{
+font-size:16px;
+}
+
+.section-title h2{
+font-size:34px;
+}
+
+.about-content h2{
+font-size:36px;
+}
+
+.contact h2{
+font-size:34px;
+}
+
+.gallery-grid{
+grid-template-columns:1fr;
+}
+
+.food-card img{
+height:240px;
+}
+
+.review-card{
+padding:30px;
+}
+
+footer h2{
+font-size:28px;
+}
+
+}
+
+
+@media (max-width:480px){
+
+.logo{
+font-size:22px;
+}
+
+.hero h1{
+font-size:34px;
+line-height:1.2;
+}
+
+.hero-text{
+font-size:15px;
+line-height:26px;
+}
+
+.btn-primary,
+.btn-secondary{
+padding:15px 28px;
+font-size:15px;
+}
+
+.section-title h2{
+font-size:28px;
+}
+
+.about-content h2{
+font-size:30px;
+}
+
+.food-card h3{
+font-size:22px;
+}
+
+.food-card span{
+font-size:22px;
+}
+
+.contact h2{
+font-size:28px;
+}
+
+.footer-icons i{
+width:48px;
+height:48px;
+font-size:18px;
+}
+
+}
