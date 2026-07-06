@@ -797,7 +797,18 @@ text-align:center;
 section{
 padding:80px 25px;
 }
+.nav-links{
+display:none !important;
+}
 
+.nav-btn{
+display:none !important;
+}
+
+.navbar{
+justify-content:center;
+}
+   
 .hero{
 min-height:100vh;
 }
